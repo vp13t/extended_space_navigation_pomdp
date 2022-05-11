@@ -1,1 +1,1 @@
-# human_aware_navigation
+# Intention-Aware Navigation in Crowds with Extended-Space POMDP Planning 
