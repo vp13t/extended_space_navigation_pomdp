@@ -1,0 +1,4 @@
+RNG seed for generating environemnt -> 2348439012
+RNG seed for simulating pedestrians -> 1098653770
+RNG seed for Solver -> 2162167893
+
