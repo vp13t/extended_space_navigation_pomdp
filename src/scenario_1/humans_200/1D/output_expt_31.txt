@@ -1,0 +1,437 @@
+Simulating for time interval - (0 , 1)
+Current cart state = cart_state(1.0, 25.0, 0.0, 0.0, 1.0, location(100.0, 75.0))
+Modified cart state = cart_state(1.0, 25.0, 0.0, 0.0, 1.0, location(100.0, 75.0))
+Simulating for time interval - (1 , 2)
+Current cart state = cart_state(1.0, 25.0, 0.0, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path Not found. Reusing old path**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(1.9003163170693418, 25.372923212351793, 0.785398163397448, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (2 , 3)
+Current cart state = cart_state(1.9003163170693418, 25.372923212351793, 0.785398163397448, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path Not found. Reusing old path**********
+DESPOT's MemorizingSource random number generator had to move the memory locations of the rngs 51 times. If this number was large, it may be affecting performance (profiling is the best way to tell).
+To suppress this warning, use MemorizingSource(..., move_warning=false).
+To reduce the number of moves, try using MemorizingSource(..., min_reserve=n) and increase n until the number of moves is low (the final min_reserve was 6).
+
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(2.273239556446742, 26.27323951801945, 1.570796326794896, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (3 , 4)
+Current cart state = cart_state(2.273239556446742, 26.27323951801945, 1.570796326794896, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(2.273239556446742, 26.27323951801945, 1.570796326794896, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (4 , 5)
+Current cart state = cart_state(2.273239556446742, 26.27323951801945, 1.570796326794896, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(2.6461626839029537, 27.173555831520098, 0.7853981633974478, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (5 , 6)
+Current cart state = cart_state(2.6461626839029537, 27.173555831520098, 0.7853981633974478, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(3.461162254950792, 27.744224679970355, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (6 , 7)
+Current cart state = cart_state(3.461162254950792, 27.744224679970355, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(4.98326861140987, 29.022000304359068, 0.7853981633974478, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (7 , 8)
+Current cart state = cart_state(4.98326861140987, 29.022000304359068, 0.7853981633974478, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(5.798268182520325, 29.59266915275761, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (8 , 9)
+Current cart state = cart_state(5.798268182520325, 29.59266915275761, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(6.704575969556975, 30.015287414498307, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (9 , 10)
+Current cart state = cart_state(6.704575969556975, 30.015287414498307, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(8.517191543630275, 30.860523937979703, 0.43633231299858194, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (10 , 11)
+Current cart state = cart_state(8.517191543630275, 30.860523937979703, 0.43633231299858194, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(9.423499330666925, 31.283142199720402, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (11 , 12)
+Current cart state = cart_state(9.423499330666925, 31.283142199720402, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(10.329807117703574, 31.7057604614611, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (12 , 13)
+Current cart state = cart_state(10.329807117703574, 31.7057604614611, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(11.236114904740223, 32.1283787232018, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (13 , 14)
+Current cart state = cart_state(11.236114904740223, 32.1283787232018, 0.43633231299858194, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(13.193338927929956, 32.47304150005558, 0.08726646259971603, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (14 , 15)
+Current cart state = cart_state(13.193338927929956, 32.47304150005558, 0.08726646259971603, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(16.031369014481953, 33.41372093583888, 0.2617993877991489, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (15 , 16)
+Current cart state = cart_state(16.031369014481953, 33.41372093583888, 0.2617993877991489, 3.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(19.405118950998574, 35.51197154703737, 0.5235987755982984, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (16 , 17)
+Current cart state = cart_state(19.405118950998574, 35.51197154703737, 0.5235987755982984, 4.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(23.010771714837162, 37.24142844207577, 0.4363323129985819, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (17 , 18)
+Current cart state = cart_state(23.010771714837162, 37.24142844207577, 0.4363323129985819, 4.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(26.869605555557936, 36.465686917515455, 6.021385919380436, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (18 , 19)
+Current cart state = cart_state(26.869605555557936, 36.465686917515455, 6.021385919380436, 4.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(30.433840179410357, 38.09288406859822, 0.5235987755982974, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (19 , 20)
+Current cart state = cart_state(30.433840179410357, 38.09288406859822, 0.5235987755982974, 4.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(33.89794179454812, 40.09288406859822, 0.5235987755982974, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (20 , 21)
+Current cart state = cart_state(33.89794179454812, 40.09288406859822, 0.5235987755982974, 4.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(36.622108184514836, 43.002287076091854, 0.7853981633974468, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (21 , 22)
+Current cart state = cart_state(36.622108184514836, 43.002287076091854, 0.7853981633974468, 4.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(38.79566401609482, 42.101970876084245, 4.712388980384689, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (22 , 23)
+Current cart state = cart_state(38.79566401609482, 42.101970876084245, 4.712388980384689, 3.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(41.88985859419395, 41.58460394348299, 0.5235987755982965, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (23 , 24)
+Current cart state = cart_state(41.88985859419395, 41.58460394348299, 0.5235987755982965, 4.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(44.487934805547276, 43.08460394348299, 0.5235987755982965, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (24 , 25)
+Current cart state = cart_state(44.487934805547276, 43.08460394348299, 0.5235987755982965, 3.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(46.21998561311616, 44.08460394348299, 0.5235987755982965, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (25 , 26)
+Current cart state = cart_state(46.21998561311616, 44.08460394348299, 0.5235987755982965, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(46.813220860051175, 44.85772297445218, 1.3089969389957443, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (26 , 27)
+Current cart state = cart_state(46.813220860051175, 44.85772297445218, 1.3089969389957443, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(47.406455868833156, 45.6308421630894, 0.5235987755982964, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (27 , 28)
+Current cart state = cart_state(47.406455868833156, 45.6308421630894, 0.5235987755982964, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(48.2724812726176, 46.1308421630894, 0.5235987755982964, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (28 , 29)
+Current cart state = cart_state(48.2724812726176, 46.1308421630894, 0.5235987755982964, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(48.2724812726176, 46.1308421630894, 0.5235987755982964, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (29 , 30)
+Current cart state = cart_state(48.2724812726176, 46.1308421630894, 0.5235987755982964, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(49.22741091053134, 46.386714825745614, 6.2831853071795845, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (30 , 31)
+Current cart state = cart_state(49.22741091053134, 46.386714825745614, 6.2831853071795845, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(51.18195266629332, 45.99774202453644, 6.021385919380435, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (31 , 32)
+Current cart state = cart_state(51.18195266629332, 45.99774202453644, 6.021385919380435, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(54.104949076896524, 45.39339000377684, 0.0872664625997146, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (32 , 33)
+Current cart state = cart_state(54.104949076896524, 45.39339000377684, 0.0872664625997146, 3.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(57.491400305160866, 47.452245859829404, 0.6108652381980132, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (33 , 34)
+Current cart state = cart_state(57.491400305160866, 47.452245859829404, 0.6108652381980132, 4.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -10
+Modified cart state = cart_state(57.491400305160866, 47.452245859829404, 0.6108652381980132, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (34 , 35)
+Current cart state = cart_state(57.491400305160866, 47.452245859829404, 0.6108652381980132, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(57.491400305160866, 47.452245859829404, 0.6108652381980132, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (35 , 36)
+Current cart state = cart_state(57.491400305160866, 47.452245859829404, 0.6108652381980132, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(58.31055234944986, 48.02582229618045, 0.6108652381980132, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (36 , 37)
+Current cart state = cart_state(58.31055234944986, 48.02582229618045, 0.6108652381980132, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(59.94885643802784, 49.172975168882544, 0.6108652381980132, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (37 , 38)
+Current cart state = cart_state(59.94885643802784, 49.172975168882544, 0.6108652381980132, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(61.58716052660582, 50.32012804158464, 0.6108652381980132, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (38 , 39)
+Current cart state = cart_state(61.58716052660582, 50.32012804158464, 0.6108652381980132, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(63.45479985607457, 50.999423001114, 0.2617993877991473, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (39 , 40)
+Current cart state = cart_state(63.45479985607457, 50.999423001114, 0.2617993877991473, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(64.99110205680947, 53.43514482719101, 1.0471975511965954, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (40 , 41)
+Current cart state = cart_state(64.99110205680947, 53.43514482719101, 1.0471975511965954, 3.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path Not found. Reusing old path**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(66.99110205680947, 56.899246442328746, 1.0471975511965954, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (41 , 42)
+Current cart state = cart_state(66.99110205680947, 56.899246442328746, 1.0471975511965954, 4.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -10
+Modified cart state = cart_state(66.99110205680947, 56.899246442328746, 1.0471975511965954, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (42 , 43)
+Current cart state = cart_state(66.99110205680947, 56.899246442328746, 1.0471975511965954, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(67.69015905457738, 57.598303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (43 , 44)
+Current cart state = cart_state(67.69015905457738, 57.598303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(67.69015905457738, 57.598303485707106, 0.5235987755982968, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (44 , 45)
+Current cart state = cart_state(67.69015905457738, 57.598303485707106, 0.5235987755982968, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(68.55618445836181, 58.098303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (45 , 46)
+Current cart state = cart_state(68.55618445836181, 58.098303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(69.42220986214625, 58.598303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (46 , 47)
+Current cart state = cart_state(69.42220986214625, 58.598303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(71.15426066971511, 59.598303485707106, 0.5235987755982968, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (47 , 48)
+Current cart state = cart_state(71.15426066971511, 59.598303485707106, 0.5235987755982968, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(72.02028607349955, 60.098303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (48 , 49)
+Current cart state = cart_state(72.02028607349955, 60.098303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(72.88631147728398, 60.598303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (49 , 50)
+Current cart state = cart_state(72.88631147728398, 60.598303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(73.75233688106842, 61.098303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (50 , 51)
+Current cart state = cart_state(73.75233688106842, 61.098303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(74.61836228485285, 61.598303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (51 , 52)
+Current cart state = cart_state(74.61836228485285, 61.598303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(74.61836228485285, 61.598303485707106, 0.5235987755982968, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (52 , 53)
+Current cart state = cart_state(74.61836228485285, 61.598303485707106, 0.5235987755982968, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(75.48438768863728, 62.098303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (53 , 54)
+Current cart state = cart_state(75.48438768863728, 62.098303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(76.35041309242172, 62.598303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (54 , 55)
+Current cart state = cart_state(76.35041309242172, 62.598303485707106, 0.5235987755982968, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(78.10316789893429, 63.559905595524285, 0.43633231299858033, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (55 , 56)
+Current cart state = cart_state(78.10316789893429, 63.559905595524285, 0.43633231299858033, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(79.87662670439182, 64.4831098151562, 0.4363323129985804, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (56 , 57)
+Current cart state = cart_state(79.87662670439182, 64.4831098151562, 0.4363323129985804, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(81.62938151090566, 65.44471192497093, 0.5235987755982968, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (57 , 58)
+Current cart state = cart_state(81.62938151090566, 65.44471192497093, 0.5235987755982968, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(84.28956971909176, 66.82951825441943, 0.4363323129985804, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (58 , 59)
+Current cart state = cart_state(84.28956971909176, 66.82951825441943, 0.4363323129985804, 3.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(85.82474001449738, 68.06032647668917, 1.0471975511965956, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (59 , 60)
+Current cart state = cart_state(85.82474001449738, 68.06032647668917, 1.0471975511965956, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(88.44793777198515, 68.42926648682335, 5.759586531581286, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (60 , 61)
+Current cart state = cart_state(88.44793777198515, 68.42926648682335, 5.759586531581286, 3.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(90.18721535889938, 68.89530421620417, 1.0471975511965952, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (61 , 62)
+Current cart state = cart_state(90.18721535889938, 68.89530421620417, 1.0471975511965952, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(92.44895037016438, 70.48471861074508, 6.2831853071795845, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (62 , 63)
+Current cart state = cart_state(92.44895037016438, 70.48471861074508, 6.2831853071795845, 3.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(94.08631010802803, 69.4364195997236, 5.585053606381853, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (63 , 64)
+Current cart state = cart_state(94.08631010802803, 69.4364195997236, 5.585053606381853, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path Not found. Reusing old path**********
+Action chosen by 1D action space speed POMDP planner: -10
+Modified cart state = cart_state(94.08631010802803, 69.4364195997236, 5.585053606381853, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (64 , 65)
+Current cart state = cart_state(94.08631010802803, 69.4364195997236, 5.585053606381853, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(94.08631010802803, 69.4364195997236, 5.585053606381853, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (65 , 66)
+Current cart state = cart_state(94.08631010802803, 69.4364195997236, 5.585053606381853, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: -1
+Modified cart state = cart_state(94.08631010802803, 69.4364195997236, 5.585053606381853, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (66 , 67)
+Current cart state = cart_state(94.08631010802803, 69.4364195997236, 5.585053606381853, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path Not found. Reusing old path**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(94.08631010802803, 69.4364195997236, 5.585053606381853, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (67 , 68)
+Current cart state = cart_state(94.08631010802803, 69.4364195997236, 5.585053606381853, 0.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(95.01570271377146, 69.14338303328998, 0.08726646259971549, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (68 , 69)
+Current cart state = cart_state(95.01570271377146, 69.14338303328998, 0.08726646259971549, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 0
+Modified cart state = cart_state(95.8800906551886, 69.59335482893462, 0.8726646259971634, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (69 , 70)
+Current cart state = cart_state(95.8800906551886, 69.59335482893462, 0.8726646259971634, 1.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(97.09722721803094, 71.17955807984339, 0.8726646259971634, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (70 , 71)
+Current cart state = cart_state(97.09722721803094, 71.17955807984339, 0.8726646259971634, 2.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(98.92293206229473, 73.5588629562064, 0.9599310885968799, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (71 , 72)
+Current cart state = cart_state(98.92293206229473, 73.5588629562064, 0.9599310885968799, 3.0, 1.0, location(100.0, 75.0))
+**********Hybrid A Star Path found**********
+Action chosen by 1D action space speed POMDP planner: 1
+Modified cart state = cart_state(99.49650849864578, 74.37801500049538, 0.9599310885968799, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Goal Reached! :D
+Time Taken by cart to reach goal : 72
+Number of risky scenarios encountered by the cart : 0
+Number of sudden stops taken by the cart : 3

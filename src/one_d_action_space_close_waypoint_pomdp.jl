@@ -4,8 +4,8 @@
 using POMDPs
 using Distributions
 using Random
-import POMDPs: initialstate_distribution, actions, gen, discount, isterminal
-using POMDPModels, POMDPSimulators, ARDESPOT, POMDPModelTools, POMDPPolicies
+import POMDPs: initialstate, actions, gen, discount, isterminal
+using POMDPModels, ARDESPOT, POMDPTools
 using ParticleFilters
 using BenchmarkTools
 using Debugger
@@ -394,7 +394,7 @@ function calculate_upper_bound_value_pomdp_planning_1D_action_space(m::POMDP_Pla
     end
     return value_sum
 end
-#@code_warntype calculate_upper_bound_value(golfcart_pomdp(), initialstate_distribution(golfcart_pomdp()))
+#@code_warntype calculate_upper_bound_value(golfcart_pomdp(), initialstate(golfcart_pomdp()))
 
 function calculate_lower_bound_policy_pomdp_planning_1D_action_space(b)
     #Implement a reactive controller for your lower bound

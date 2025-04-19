@@ -1,0 +1,272 @@
+Simulating for time interval - (0 , 1)
+Current cart state = cart_state(1.0, 25.0, 0.0, 0.0, 1.0, location(100.0, 75.0))
+Modified cart state = cart_state(1.0, 25.0, 0.0, 0.0, 1.0, location(100.0, 75.0))
+Simulating for time interval - (1 , 2)
+Current cart state = cart_state(1.0, 25.0, 0.0, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (45.0, 1.0)
+Modified cart state = cart_state(1.9003163161586127, 25.372923228574887, 0.7853981633974481, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (2 , 3)
+Current cart state = cart_state(1.9003163161586127, 25.372923228574887, 0.7853981633974481, 1.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (45.0, 0.0)
+Modified cart state = cart_state(2.273239544741478, 26.273239544729652, 1.5707963267948963, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (3 , 4)
+Current cart state = cart_state(2.273239544741478, 26.273239544729652, 1.5707963267948963, 1.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-29.999999999999996, 0.0)
+Modified cart state = cart_state(2.5291121755781503, 27.22816920328118, 1.0471975511965967, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (4 , 5)
+Current cart state = cart_state(2.5291121755781503, 27.22816920328118, 1.0471975511965967, 1.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 1.0)
+Modified cart state = cart_state(3.529112175578151, 28.960220010850048, 1.0471975511965967, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (5 , 6)
+Current cart state = cart_state(3.529112175578151, 28.960220010850048, 1.0471975511965967, 2.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-45.0, 0.0)
+Modified cart state = cart_state(5.075350470948229, 30.146690384746993, 0.2617993877991487, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (6 , 7)
+Current cart state = cart_state(5.075350470948229, 30.146690384746993, 0.2617993877991487, 2.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 1.0)
+Modified cart state = cart_state(7.973127949815434, 30.92314752005456, 0.2617993877991487, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (7 , 8)
+Current cart state = cart_state(7.973127949815434, 30.92314752005456, 0.2617993877991487, 3.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 1.0)
+Modified cart state = cart_state(11.836831254971703, 31.958423700464625, 0.2617993877991487, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (8 , 9)
+Current cart state = cart_state(11.836831254971703, 31.958423700464625, 0.2617993877991487, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (11.021796819235615, 0.0)
+Modified cart state = cart_state(15.577479656232354, 33.357805870436735, 0.4541660317806484, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (9 , 10)
+Current cart state = cart_state(15.577479656232354, 33.357805870436735, 0.4541660317806484, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-45.0, 0.0)
+Modified cart state = cart_state(19.468099758645533, 33.59725205546222, 5.951953175562788, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (10 , 11)
+Current cart state = cart_state(19.468099758645533, 33.59725205546222, 5.951953175562788, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (45.0, 0.0)
+Modified cart state = cart_state(23.358719861059228, 33.836698240457345, 0.4541660317806475, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (11 , 12)
+Current cart state = cart_state(23.358719861059228, 33.836698240457345, 0.4541660317806475, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (14.999999999999998, 0.0)
+Modified cart state = cart_state(26.68390797192703, 36.03941186858976, 0.7159654195797972, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (12 , 13)
+Current cart state = cart_state(26.68390797192703, 36.03941186858976, 0.7159654195797972, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (13 , 14)
+Current cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-572.9577951308232, -10.0)
+Modified cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (14 , 15)
+Current cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (15 , 16)
+Current cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (16 , 17)
+Current cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (17 , 18)
+Current cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (18 , 19)
+Current cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (19 , 20)
+Current cart state = cart_state(29.701747746056274, 38.66479624000733, 0.7159654195797972, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (29.999999999999996, 1.0)
+Modified cart state = cart_state(30.254262920806372, 39.484606240960886, 1.2395641951780962, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (20 , 21)
+Current cart state = cart_state(30.254262920806372, 39.484606240960886, 1.2395641951780962, 1.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 1.0)
+Modified cart state = cart_state(30.904679782425493, 41.3758909646663, 1.2395641951780962, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (21 , 22)
+Current cart state = cart_state(30.904679782425493, 41.3758909646663, 1.2395641951780962, 2.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-45.0, 0.0)
+Modified cart state = cart_state(32.19556470056105, 42.83608990396695, 0.454166031780648, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (22 , 23)
+Current cart state = cart_state(32.19556470056105, 42.83608990396695, 0.454166031780648, 2.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 1.0)
+Modified cart state = cart_state(34.891446340664416, 44.152229023723436, 0.454166031780648, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (23 , 24)
+Current cart state = cart_state(34.891446340664416, 44.152229023723436, 0.454166031780648, 3.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 1.0)
+Modified cart state = cart_state(38.48595519413557, 45.90708118339877, 0.454166031780648, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (24 , 25)
+Current cart state = cart_state(38.48595519413557, 45.90708118339877, 0.454166031780648, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-45.0, 0.0)
+Modified cart state = cart_state(42.37657529654874, 46.146527368424294, 5.951953175562788, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (25 , 26)
+Current cart state = cart_state(42.37657529654874, 46.146527368424294, 5.951953175562788, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(46.15914474395963, 44.84569364518605, 5.951953175562788, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (26 , 27)
+Current cart state = cart_state(46.15914474395963, 44.84569364518605, 5.951953175562788, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(49.94171419137052, 43.54485992194781, 5.951953175562788, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (27 , 28)
+Current cart state = cart_state(49.94171419137052, 43.54485992194781, 5.951953175562788, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (45.0, 0.0)
+Modified cart state = cart_state(53.832334293784214, 43.78430610694292, 0.4541660317806475, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (28 , 29)
+Current cart state = cart_state(53.832334293784214, 43.78430610694292, 0.4541660317806475, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-572.9577951308232, -10.0)
+Modified cart state = cart_state(53.832334293784214, 43.78430610694292, 0.4541660317806475, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (29 , 30)
+Current cart state = cart_state(53.832334293784214, 43.78430610694292, 0.4541660317806475, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 1.0)
+Modified cart state = cart_state(54.730961507152, 44.22301914686177, 0.4541660317806475, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (30 , 31)
+Current cart state = cart_state(54.730961507152, 44.22301914686177, 0.4541660317806475, 1.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, -1.0)
+Modified cart state = cart_state(54.730961507152, 44.22301914686177, 0.4541660317806475, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (31 , 32)
+Current cart state = cart_state(54.730961507152, 44.22301914686177, 0.4541660317806475, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(54.730961507152, 44.22301914686177, 0.4541660317806475, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (32 , 33)
+Current cart state = cart_state(54.730961507152, 44.22301914686177, 0.4541660317806475, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(54.730961507152, 44.22301914686177, 0.4541660317806475, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (33 , 34)
+Current cart state = cart_state(54.730961507152, 44.22301914686177, 0.4541660317806475, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(54.730961507152, 44.22301914686177, 0.4541660317806475, 0.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (34 , 35)
+Current cart state = cart_state(54.730961507152, 44.22301914686177, 0.4541660317806475, 0.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (45.0, 1.0)
+Modified cart state = cart_state(55.37640396622778, 44.95311861650504, 1.2395641951780958, 1.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (35 , 36)
+Current cart state = cart_state(55.37640396622778, 44.95311861650504, 1.2395641951780958, 1.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 1.0)
+Modified cart state = cart_state(56.0268208278469, 46.84440334021045, 1.2395641951780958, 2.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (36 , 37)
+Current cart state = cart_state(56.0268208278469, 46.84440334021045, 1.2395641951780958, 2.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 1.0)
+Modified cart state = cart_state(57.002446120275614, 49.681330425768564, 1.2395641951780958, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (37 , 38)
+Current cart state = cart_state(57.002446120275614, 49.681330425768564, 1.2395641951780958, 3.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(57.97807141270433, 52.51825751132668, 1.2395641951780958, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (38 , 39)
+Current cart state = cart_state(57.97807141270433, 52.51825751132668, 1.2395641951780958, 3.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (14.999999999999998, 0.0)
+Modified cart state = cart_state(58.573353401542626, 55.44987011536165, 1.5013635829772445, 3.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (39 , 40)
+Current cart state = cart_state(58.573353401542626, 55.44987011536165, 1.5013635829772445, 3.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 1.0)
+Modified cart state = cart_state(58.85086127811339, 59.44023217643348, 1.5013635829772445, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (40 , 41)
+Current cart state = cart_state(58.85086127811339, 59.44023217643348, 1.5013635829772445, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-45.0, 0.0)
+Modified cart state = cart_state(60.588804850242745, 62.929331114112465, 0.7159654195797962, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (41 , 42)
+Current cart state = cart_state(60.588804850242745, 62.929331114112465, 0.7159654195797962, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (45.0, 0.0)
+Modified cart state = cart_state(62.326748422410326, 66.4184300517724, 1.5013635829772445, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (42 , 43)
+Current cart state = cart_state(62.326748422410326, 66.4184300517724, 1.5013635829772445, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-45.0, 0.0)
+Modified cart state = cart_state(64.06469199453969, 69.9075289894514, 0.7159654195797962, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (43 , 44)
+Current cart state = cart_state(64.06469199453969, 69.9075289894514, 0.7159654195797962, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-14.999999999999998, 0.0)
+Modified cart state = cart_state(67.3898801054074, 72.11024261758396, 0.4541660317806465, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (44 , 45)
+Current cart state = cart_state(67.3898801054074, 72.11024261758396, 0.4541660317806465, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-14.999999999999998, 0.0)
+Modified cart state = cart_state(71.17186941683147, 73.37727858727509, 0.19236664398149728, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (45 , 46)
+Current cart state = cart_state(71.17186941683147, 73.37727858727509, 0.19236664398149728, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-7.80004517652138, 0.0)
+Modified cart state = cart_state(75.13794467608462, 73.8728100668089, 0.05623017384689691, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (46 , 47)
+Current cart state = cart_state(75.13794467608462, 73.8728100668089, 0.05623017384689691, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (0.0, 0.0)
+Modified cart state = cart_state(79.13162267720479, 74.09761225400753, 0.05623017384689691, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (47 , 48)
+Current cart state = cart_state(79.13162267720479, 74.09761225400753, 0.05623017384689691, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-45.0, 0.0)
+Modified cart state = cart_state(82.81103010053845, 72.81067003699006, 5.554017317629039, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (48 , 49)
+Current cart state = cart_state(82.81103010053845, 72.81067003699006, 5.554017317629039, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-29.999999999999996, 0.0)
+Modified cart state = cart_state(84.9776050490147, 69.50253819431555, 5.030418542030737, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (49 , 50)
+Current cart state = cart_state(84.9776050490147, 69.50253819431555, 5.030418542030737, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (45.0, 0.0)
+Modified cart state = cart_state(87.52059423995443, 66.54830982948286, 5.815816705428181, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (50 , 51)
+Current cart state = cart_state(87.52059423995443, 66.54830982948286, 5.815816705428181, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (45.0, 0.0)
+Modified cart state = cart_state(91.40771405129829, 66.25751982093918, 0.3180295616460399, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (51 , 52)
+Current cart state = cart_state(91.40771405129829, 66.25751982093918, 0.3180295616460399, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (45.0, 0.0)
+Modified cart state = cart_state(94.36194241613066, 68.80050901187992, 1.103427725043488, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (52 , 53)
+Current cart state = cart_state(94.36194241613066, 68.80050901187992, 1.103427725043488, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-15.506351819049128, 0.0)
+Modified cart state = cart_state(96.62246148915412, 72.08572324184031, 0.8327908308284686, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Simulating for time interval - (53 , 54)
+Current cart state = cart_state(96.62246148915412, 72.08572324184031, 0.8327908308284686, 4.0, 1.0, location(100.0, 75.0))
+Action chosen by 2D action space POMDP planner: (-29.999999999999996, 0.0)
+Modified cart state = cart_state(99.94961101837944, 74.22297832864152, 0.3091920552301701, 4.0, 1.0, location(100.0, 75.0))
+************************************************************************
+Goal Reached! :D
+Time Taken by cart to reach goal : 54
+Number of risky scenarios encountered by the cart : 0
+Number of sudden stops taken by the cart : 2

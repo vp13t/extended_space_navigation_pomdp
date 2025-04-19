@@ -4,8 +4,8 @@
 using POMDPs
 using Distributions
 using Random
-import POMDPs: initialstate_distribution, actions, gen, discount, isterminal
-using POMDPModels, POMDPSimulators, ARDESPOT, POMDPModelTools, POMDPPolicies
+import POMDPs: initialstate, actions, gen, discount, isterminal
+using POMDPModels, ARDESPOT, POMDPTools
 using ParticleFilters
 using BenchmarkTools
 using Debugger

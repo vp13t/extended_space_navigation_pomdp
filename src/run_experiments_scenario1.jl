@@ -16,7 +16,7 @@ function run_experiment_for_given_world_and_noise_with_2D_POMDP_planner(world, r
     solver = DESPOTSolver(bounds=IndependentBounds(DefaultPolicyLB(FunctionPolicy(calculate_lower_bound_policy_pomdp_planning_2D_action_space),max_depth=100),
                             calculate_upper_bound_value_pomdp_planning_2D_action_space, check_terminal=true),K=50,D=100,T_max=0.5, tree_in_info=true)
 
-	io = open(output_filename,"a")
+	io = open(output_filename,"a+")
 	write_and_print( io, "RNG seed for Solver -> " * string(solver.rng.seed[1]) * "\n")
     close(io)
 
@@ -60,7 +60,7 @@ function run_experiment_for_given_world_and_noise_with_1D_POMDP_planner(world, r
     solver = DESPOTSolver(bounds=IndependentBounds(DefaultPolicyLB(FunctionPolicy(calculate_lower_bound_policy_pomdp_planning_1D_action_space)),
             calculate_upper_bound_value_pomdp_planning_1D_action_space, check_terminal=true),K=50,D=100,T_max=0.3, tree_in_info=true)
 
-	io = open(output_filename,"a")
+	io = open(output_filename,"a+")
 	write_and_print( io, "RNG seed for Solver -> " * string(solver.rng.seed[1]) * "\n")
 	close(io)
 
@@ -129,8 +129,12 @@ function run_experiment_pipeline(num_humans, num_simulations, write_to_file_flag
         experiment_env = generate_environment_no_obstacles(num_humans, rand_noise_generator_for_env)
 
 		#Run experiment for 2D action space POMDP planner
-		output_filename_2D_AS_planner = "./scenario_1/humans_"*string(num_humans)*"/2D/output_expt_" * string(iteration_num) * ".txt"
-		io = open(output_filename_2D_AS_planner,"w")
+		output_path_2D_AS_planner = "./scenario_1/humans_"*string(num_humans)*"/2D/"
+		output_filename_2D_AS_planner = "output_expt_" * string(iteration_num) * ".txt"
+		if !ispath(output_path_2D_AS_planner)
+			mkpath(output_path_2D_AS_planner)
+		end
+		io = open(output_path_2D_AS_planner * output_filename_2D_AS_planner,"w+")
 		write_and_print( io, "\n Running Simulation #" * string(iteration_num))
 	    write_and_print( io, "RNG seed for generating environemnt -> " * string(rand_noise_generator_seed_for_env))
 	    write_and_print( io, "RNG seed for simulating pedestrians -> " * string(rand_noise_generator_seed_for_sim))
@@ -142,7 +146,7 @@ function run_experiment_pipeline(num_humans, num_simulations, write_to_file_flag
 	    just_2D_pomdp_time_taken_by_cart,just_2D_pomdp_cart_reached_goal_flag, just_2D_pomdp_cart_ran_into_static_obstacle_flag,
 	    just_2D_pomdp_cart_ran_into_boundary_wall_flag,just_2D_pomdp_experiment_success_flag,
 		just_2D_pomdp_solver_rng = run_experiment_for_given_world_and_noise_with_2D_POMDP_planner(experiment_env,rand_noise_generator_for_sim,
-																			iteration_num, output_filename_2D_AS_planner)
+																			iteration_num, output_path_2D_AS_planner * output_filename_2D_AS_planner)
 
 		if(write_to_file_flag)
 			expt_details_filename_2D_AS_planner = "./scenario_1/humans_"*string(num_humans)*"/2D/details_expt_" * string(iteration_num) * ".jld2"
@@ -189,8 +193,12 @@ function run_experiment_pipeline(num_humans, num_simulations, write_to_file_flag
 
 		#Run experiment for 1D action space POMDP planner
 		rand_noise_generator_for_sim = MersenneTwister(rand_noise_generator_seed_for_sim)
-		output_filename_1D_AS_planner = "./scenario_1/humans_"*string(num_humans)*"/1D/output_expt_" * string(iteration_num) * ".txt"
-		io = open(output_filename_1D_AS_planner,"w")
+		output_path_1D_AS_planner = "./scenario_1/humans_"*string(num_humans)*"/1D/"
+		output_filename_1D_AS_planner = "output_expt_" * string(iteration_num) * ".txt"
+		if !ispath(output_path_1D_AS_planner)
+			mkpath(output_path_1D_AS_planner)
+		end
+		io = open(output_path_1D_AS_planner * output_filename_1D_AS_planner,"w+")
 		write_and_print( io, "\n Running Simulation #" * string(iteration_num))
 	    write_and_print( io, "RNG seed for generating environemnt -> " * string(rand_noise_generator_seed_for_env))
 	    write_and_print( io, "RNG seed for simulating pedestrians -> " * string(rand_noise_generator_seed_for_sim))
@@ -201,7 +209,7 @@ function run_experiment_pipeline(num_humans, num_simulations, write_to_file_flag
 	    astar_1D_cart_throughout_path, astar_1D_number_risks, astar_1D_number_of_sudden_stops, astar_1D_time_taken_by_cart,
 	    astar_1D_cart_reached_goal_flag, astar_1D_cart_ran_into_static_obstacle_flag, astar_1D_cart_ran_into_boundary_wall_flag,
 	    astar_1D_experiment_success_flag, astar_1D_solver_rng = run_experiment_for_given_world_and_noise_with_1D_POMDP_planner(experiment_env,
-												rand_noise_generator_for_sim, iteration_num, output_filename_1D_AS_planner)
+												rand_noise_generator_for_sim, iteration_num, output_path_1D_AS_planner * output_filename_1D_AS_planner)
 
 		if(write_to_file_flag)
 			expt_details_filename_1D_AS_planner = "./scenario_1/humans_"*string(num_humans)*"/1D/details_expt_" * string(iteration_num) * ".jld2"
@@ -336,6 +344,10 @@ delete_old_txt_and_jld2_files_flag = true
 if(delete_old_txt_and_jld2_files_flag == true)
 	nh = num_pedestrians
 	folder_location = "./scenario_1/humans_"*string(nh)*"/"
+	if !ispath(folder_location*"1D/risky_scenarios/") || !ispath(folder_location*"2D/risky_scenarios/")
+		mkpath(folder_location*"1D/risky_scenarios/")
+		mkpath(folder_location*"2D/risky_scenarios/")
+	end
 	#Delete output txt files
 	#1D planner
 	foreach(rm, filter(endswith(".txt"), readdir(folder_location*"1D",join=true)))
